@@ -1,0 +1,146 @@
+*{
+    
+    text-align: center;
+    padding: auto;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: .5rem;
+    padding: .5rem  1.5rem;
+    color: #666;
+}
+
+a.active,
+
+a:hover{
+    color: #fff;
+    background: #27ae60
+}
+
+#ffll{
+    display: flex;
+}
+#first{
+    display: flex;
+    flex-direction: column;
+}
+#second{
+    display: flex;
+    flex-direction: column;
+}
+#pic{
+    display: flex;
+}
+#pic-maneno{
+    display: flex;
+}
+#line{
+    width: 50px;
+}
+#bunner img{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    float: left;
+    border-radius: 3%;
+}
+
+.your img{
+    margin-left: 70px;
+}
+
+.clr {
+    clear: both;
+}
+
+.pic img{
+    margin-top: 30px;
+    border-radius: 5%;
+}
+
+.pic-1 img{
+    position: relative;
+    bottom: 100px;
+    border-radius: 5%;
+}
+
+.pic-word p{
+    position: relative;
+    bottom: 100px;
+}
+
+.search{
+    margin: 30px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px ;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    margin-top: 13px;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+
+h1{
+    text-shadow: 2px 2px red;
+}
+
+p{
+    color: yellow;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  h3{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  
+  h2{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+body{
+    background: url(447475.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pic{
+    border-radius: 50%;
+}
